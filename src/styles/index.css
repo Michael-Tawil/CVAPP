@@ -1,0 +1,61 @@
+
+html{
+  width:100vw;
+  height:100vh;
+}
+body{
+  background-color:#363732;
+  max-width: 100%;
+  max-height: 100%;
+  margin:10px;
+  font-family: 'AR One Sans', sans-serif;
+
+}
+.inputdiv{
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.maindiv{
+  display: flex;
+  min-height: 99vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1 0 500px;
+  gap: 20px;
+}
+.cview{
+  width: 1300px;
+  background-color: #D0CFCF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius:10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.pinfoview{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.eduinfoview{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pexinfoview{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pinfoview h1,.eduinfoview h1,.pexinfoview h1{
+  color:#363732;
+}
